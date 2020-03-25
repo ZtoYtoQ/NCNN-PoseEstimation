@@ -8,6 +8,8 @@ the related  package:
 2. [Protobuf](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md)  (Optional )
 3. download model from [BaiduCloud](https://pan.baidu.com/s/1Nw24WJj2SjG0iANua4XIoA) (password：yp19) 
 
+NOTE: Protobuf version must match Cmake version (In this project, Protobuf is 3.11.4 Cmake is 3.10.2)
+
 ```bash
 git clone https://github.com/ZtoYtoQ/NCNN_SinglePoseEstimation.git
 
