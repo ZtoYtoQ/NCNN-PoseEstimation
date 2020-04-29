@@ -1,6 +1,6 @@
 # NCNN_SinglePoseEstimation
 ## Introduction 
-The project mainly provides  pre-trained model (trained from MPII dataset by Pytorch) to estimate the individual human posture through NCNN.(only  test in  Linux x86)
+The project mainly provides  pre-trained model (trained from MPII dataset by Pytorch) to estimate the individual human posture through NCNN.
 
 ## Installation
 the related  package:
@@ -51,6 +51,7 @@ cd build/tools/quantize/
 ## Task Lists
 
 - [x] Adding INT8 Quantization、INT8 model 
+- [x] building  on [Android](https://github.com/ZtoYtoQ/NCNN_Android_SinglePoseEstimation) 
 - [ ] Providing  training code
 - [ ] Training  smaller model  
 - [ ] building  on other platforms(Jetson、Raspberry...)
